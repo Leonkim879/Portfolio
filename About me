@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>About me</h1>
+    <p>
+      Hi! I'm Leon Langat, an aspiring web developer who is 18 years of age that created the Recipe Finder app.
+      I made this project to learn how to use HTML, CSS, and JavaScript together. I enjoy
+      building interactive websites and look forward to adding new features to the recipe app to enhance it and make it
+      valuable.
+    </p>
+    <h2>Personal Interests</h2>
+    <p>
+      Personally, i have passion in football and swimming, they are my hobbies.Frequently, i joined FSV Bruck Football
+      Club to enhance my fitness and to relieve my body from formal works in the evening.
+      I also love coding practices i have been using this beginner app for coding referred to as "Mimo" and it has
+      really made my Softwatre Development journey smoth.
+      I love time spending with friends since i am a personnel that loves when people come together to do their things
+      and this promotes unity.
+    </p>
+    <h3>Goals and Objectives.</h3>
+    <p>
+      In life, you must have set up goals and objectives that you aim towards achieving and completing.
+      I do aim towards:
+      Obtaining the best (IT)computational and software skills.
+      Having a successful career path.
+      Having a complete family.
+      Have the facilities to give back to my family as gratitude.
+      Having the courage and resources to help the needy.
+      Being a Role Model to the upcoming generation.
+    </p>
+
+    <p>
+      You can go back to the <a href="index.html">Recipe Finder</a> here.
+    </p>
+  </div>
+</body>
+
+</html>
