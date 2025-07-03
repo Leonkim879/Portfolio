@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Me</title>
+  <style>
+    /* Make sure the body and html fill the screen */
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Background image with overlay */
+    body {
+      background: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('photo.JPEG') no-repeat fixed;
+      background-size: cover;
+      color: #1E90FF; /* blue text */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .contact-container {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5); /* semi-transparent black box */
+      padding: 30px;
+      border-radius: 10px;
+      border: 2px solid #1E90FF;
+      max-width: 400px;
+      box-shadow: 0 0 15px #1E90FF;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+    }
+
+    .btn {
+      background-color: transparent;
+      border: 2px solid #1E90FF;
+      color: #1E90FF;
+      padding: 12px 25px;
+      margin: 10px 5px;
+      font-size: 1.1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #1E90FF;
+      color: #000000;
+    }
+
+    p.location {
+      margin-top: 20px;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-container">
+    <h1>Leon Langat</h1>
+    <a href="mailto:your.leonlangatkim@gmail.com" class="btn">Email Me</a>
+    <a href="tel:+49 155 1006 0553" class="btn">Call Me</a>
+    <p class="location">Find me at: Berlin, Germany</p>
+  </div>
+</body>
+</html>
